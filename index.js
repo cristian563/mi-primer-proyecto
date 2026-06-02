@@ -1,8 +1,9 @@
-let nombre = "mariana";
-let edad = 24;
+let casa = "morada";
 
-if (edad >= 18) {
-    console.log(nombre + " puede trabajar");
+if (casa === "azul") {
+    console.log("la casa es bonita");
+} else if (casa === "roja") {
+    console.log("la casa es fea");
 } else {
-    console.log(nombre + " no puede trabajar");
+    console.log("color no definido");
 }
