@@ -1,9 +1,11 @@
-let casa = "morada";
+let notas=35;
 
-if (casa === "azul") {
-    console.log("la casa es bonita");
-} else if (casa === "roja") {
-    console.log("la casa es fea");
-} else {
-    console.log("color no definido");
+if (notas>=50) {
+    console.log("excelente precioso");
 }
+
+else if (notas>=40){
+    console.log("perdio el año");
+}
+else 
+    console.log("ya no hay nada que hacer ")
