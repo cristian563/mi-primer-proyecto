@@ -1,11 +1,15 @@
-let notas=35;
+const prompt =require("prompt-sync")();
 
-if (notas>=50) {
+
+let notas=prompt("escriba la nota");
+
+if (notas>=5) {
     console.log("excelente precioso");
 }
 
-else if (notas>=40){
-    console.log("perdio el año");
+else if (notas>=3){
+    console.log("aprobo raspado");
 }
-else 
+else {
     console.log("ya no hay nada que hacer ")
+}
